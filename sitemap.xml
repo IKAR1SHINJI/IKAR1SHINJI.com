@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ikarishinji.com/about/index.html</loc>
+    
+    <lastmod>2018-06-18T03:53:01.039Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ikarishinji.com/Steam/</loc>
     
     <lastmod>2018-06-18T03:37:05.087Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://ikarishinji.com/2018-Say-Hello/</loc>
     
     <lastmod>2018-06-15T12:39:19.770Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ikarishinji.com/about/index.html</loc>
-    
-    <lastmod>2018-06-15T12:33:04.412Z</lastmod>
     
   </url>
   
