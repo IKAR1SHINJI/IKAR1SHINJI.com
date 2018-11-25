@@ -135,18 +135,23 @@
 
 
 
-<meta name="description" content="Shadowsocks (影梭，俗称小飞机，简称SS)是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。 参考资料：Shadowsocks 一键安装脚本（四合一）一键安装最新内核并开启 BBR 脚本">
+<meta name="description" content="Shadowsocks （影梭，俗称小飞机，简称SS）是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。 搭建步骤：  购买 VPS 配置服务器 配置客户端  参考资料： Shadowsocks 一键安装脚本（四合一）一键安装最新内核并开启 BBR 脚本轻松在 VPS 搭建 Shadowsocks 翻墙">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在VPS上搭建Shadowsocks">
 <meta property="og:url" content="http://ikarishinji.com/Shadowsocks/index.html">
 <meta property="og:site_name" content="IKARISHINJI&#39;s Blog">
-<meta property="og:description" content="Shadowsocks (影梭，俗称小飞机，简称SS)是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。 参考资料：Shadowsocks 一键安装脚本（四合一）一键安装最新内核并开启 BBR 脚本">
+<meta property="og:description" content="Shadowsocks （影梭，俗称小飞机，简称SS）是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。 搭建步骤：  购买 VPS 配置服务器 配置客户端  参考资料： Shadowsocks 一键安装脚本（四合一）一键安装最新内核并开启 BBR 脚本轻松在 VPS 搭建 Shadowsocks 翻墙">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://i.loli.net/2018/11/25/5bf98f7c40efc.png">
-<meta property="og:updated_time" content="2018-11-24T17:56:15.235Z">
+<meta property="og:image" content="https://i.loli.net/2018/11/25/5bfa69e5b96c1.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/25/5bfa69e53563f.jpg">
+<meta property="og:image" content="https://i.loli.net/2018/11/25/5bfa69e5675cf.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/25/5bfa69e503be2.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/25/5bfa69e47f604.png">
+<meta property="og:updated_time" content="2018-11-25T12:36:22.391Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在VPS上搭建Shadowsocks">
-<meta name="twitter:description" content="Shadowsocks (影梭，俗称小飞机，简称SS)是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。 参考资料：Shadowsocks 一键安装脚本（四合一）一键安装最新内核并开启 BBR 脚本">
+<meta name="twitter:description" content="Shadowsocks （影梭，俗称小飞机，简称SS）是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。 搭建步骤：  购买 VPS 配置服务器 配置客户端  参考资料： Shadowsocks 一键安装脚本（四合一）一键安装最新内核并开启 BBR 脚本轻松在 VPS 搭建 Shadowsocks 翻墙">
 <meta name="twitter:image" content="https://i.loli.net/2018/11/25/5bf98f7c40efc.png">
 
 
@@ -402,7 +407,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-11-25T01:56:15+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-25T20:36:22+08:00">
                 2018-11-25
               </time>
             
@@ -448,24 +453,84 @@
 
       
         <p><img src="https://i.loli.net/2018/11/25/5bf98f7c40efc.png" alt="shadowsocks头图.png"></p>
-<p><a href="https://shadowsocks.org/en/index.html" target="_blank" rel="external"><strong>Shadowsocks </strong><i class="fa fa-external-link"></i></a>(影梭，俗称小飞机，简称SS)是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。</p>
-<p><strong>参考资料：</strong><br><a href="https://teddysun.com/486.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong>Shadowsocks 一键安装脚本（四合一）</strong></a><br><a href="https://teddysun.com/489.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong>一键安装最新内核并开启 BBR 脚本</strong></a></p>
+<p><a href="https://shadowsocks.org/en/index.html" target="_blank" rel="external"><strong>Shadowsocks </strong><i class="fa fa-external-link"></i></a>（影梭，俗称小飞机，简称SS）是一个基于 socks5 的加密代理工具，分为服务器端和客户端，被广泛用于突破防火长城(GFW)。</p>
+<p>搭建步骤：</p>
+<ul>
+<li>购买 VPS</li>
+<li>配置服务器</li>
+<li>配置客户端</li>
+</ul>
+<p><strong>参考资料：</strong><br><a href="https://teddysun.com/486.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong> Shadowsocks 一键安装脚本（四合一）</strong></a><br><a href="https://teddysun.com/489.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong>一键安装最新内核并开启 BBR 脚本</strong></a><br><a href="https://www.diycode.cc/topics/738" target="_blank" rel="external"><i class="fa fa-link"></i><strong>轻松在 VPS 搭建 Shadowsocks 翻墙</strong></a></p>
 <a id="more"></a>
 <hr>
-<h1 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h1><h2 id="安装Shadowsocks"><a href="#安装Shadowsocks" class="headerlink" title="安装Shadowsocks"></a>安装Shadowsocks</h2><p>使用root用户登录，运行以下命令：<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wget --<span class="keyword">no</span>-check-certificate -O shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/teddysun/shadowsocks_install/master/shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></div><div class="line">chmod +<span class="keyword">x</span> shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></div><div class="line">./shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span> | tee shadowsocks-<span class="keyword">all</span>.<span class="built_in">log</span></div></pre></td></tr></table></figure></p>
-<p>安装完成后，脚本提示如下</p>
-<figure class="highlight oxygene"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">Congratulations, your_shadowsocks_version install completed!</div><div class="line">Your Server IP        :your_server_ip</div><div class="line">Your Server Port      :your_server_port</div><div class="line">Your Password         :your_password</div><div class="line">Your Encryption <span class="function"><span class="keyword">Method</span>:</span>your_encryption_method</div><div class="line"></div><div class="line">Your QR Code: (<span class="keyword">For</span> Shadowsocks Windows, OSX, Android <span class="keyword">and</span> iOS clients)</div><div class="line"> ss:<span class="comment">//your_encryption_method:your_password@your_server_ip:your_server_port</span></div><div class="line">Your QR Code <span class="keyword">has</span> been saved <span class="keyword">as</span> a PNG file path:</div><div class="line"> your_path.png</div><div class="line"></div><div class="line">Welcome <span class="keyword">to</span> visit:https:<span class="comment">//teddysun.com/486.html</span></div><div class="line">Enjoy it!</div></pre></td></tr></table></figure>
-<h2 id="启用bbr"><a href="#启用bbr" class="headerlink" title="启用bbr"></a>启用bbr</h2><p>使用root用户登录，运行以下命令：<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//github.<span class="keyword">com</span>/teddysun/across/raw/master/bbr.<span class="keyword">sh</span> &amp;&amp; chmod +<span class="keyword">x</span> bbr.<span class="keyword">sh</span> &amp;&amp; ./bbr.<span class="keyword">sh</span></div></pre></td></tr></table></figure></p>
+<h1 id="购买VPS"><a href="#购买VPS" class="headerlink" title="购买VPS"></a>购买VPS</h1><p>虚拟专用服务器（Virtual private server，缩写为 VPS），是将一台服务器分割成多个虚拟专享服务器的服务。常用的 VPS  提供商有<a href="https://www.vultr.com/?ref=7482890" target="_blank" rel="external"><strong> Vultr </strong><i class="fa fa-external-link"></i></a>和<a href="https://bandwagonhost.com/aff.php?aff=39958" target="_blank" rel="external"><strong>搬瓦工 </strong><i class="fa fa-external-link"></i></a>。</p>
+<h2 id="创建账号"><a href="#创建账号" class="headerlink" title="创建账号"></a>创建账号</h2><p><img src="https://i.loli.net/2018/11/25/5bfa69e5b96c1.png" alt="创建账号.png"><br>综合稳定性和价格的考量选用<a href="https://www.vultr.com/?ref=7482890" target="_blank" rel="external"><strong>Vultr </strong><i class="fa fa-external-link"></i></a>为VPS的提供商。点击注册账号。</p>
+<h2 id="支付预存"><a href="#支付预存" class="headerlink" title="支付预存"></a>支付预存</h2><p><img src="https://i.loli.net/2018/11/25/5bfa69e53563f.jpg" alt="支付预存.jpg"></p>
+<p>Vultr 支持支付宝，使用 AliPay 支付$10刀的预存。</p>
+<h2 id="创建服务器实例"><a href="#创建服务器实例" class="headerlink" title="创建服务器实例"></a>创建服务器实例</h2><p>点击加号创建服务器实例，依次选择 ①Server Location:Los Angeles ②Server Type:CentOS/Server 7x64 ③Size:20GB SSD/$3.5/mo。点击 Deploy Now 完成服务器实例的创建。</p>
+<p><img src="https://i.loli.net/2018/11/25/5bfa69e5675cf.png" alt="服务器概览.png"></p>
+<p>在服务器列表点击创建的服务器，进入概览。复制<strong>服务器的IP</strong>和<strong>密码</strong>，在 PC 上安装<a href="https://www.putty.org/" target="_blank" rel="external"><strong> PuTTY </strong><i class="fa fa-external-link"></i></a>来连接服务器。</p>
+<h1 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h1><h2 id="连接服务器"><a href="#连接服务器" class="headerlink" title="连接服务器"></a>连接服务器</h2><p><img src="https://i.loli.net/2018/11/25/5bfa69e503be2.png" alt="PuTTY.png"></p>
+<p>打开 PuTTY，填入 IP 地址，端口填写 22，点击 Open 连接服务器。<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Login <span class="string">as:</span>root</div><div class="line"><span class="string">password:</span></div></pre></td></tr></table></figure></p>
+<p>初次登录首先修改默认密码，输入以下命令：<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">passwd</span></div></pre></td></tr></table></figure></p>
+<p>按提示输入新密码：<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Changing password <span class="keyword">for</span><span class="built_in"> user </span>root.</div><div class="line">New password:</div><div class="line">Retype new password:</div><div class="line">passwd: all authentication tokens updated successfully.</div></pre></td></tr></table></figure></p>
+<p>这样以后用 PuTTY 连接服务器就要使用新密码。</p>
+<h2 id="安装Shadowsocks"><a href="#安装Shadowsocks" class="headerlink" title="安装Shadowsocks"></a>安装Shadowsocks</h2><p>运行以下命令，按提示选择 Shadowsocks 版本、服务器端口和密码：<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wget --<span class="keyword">no</span>-check-certificate -O shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/teddysun/shadowsocks_install/master/shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></div><div class="line">chmod +<span class="keyword">x</span> shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span></div><div class="line">./shadowsocks-<span class="keyword">all</span>.<span class="keyword">sh</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span> | tee shadowsocks-<span class="keyword">all</span>.<span class="built_in">log</span></div></pre></td></tr></table></figure></p>
+<p>安装完成后，脚本提示如下<br><figure class="highlight oxygene"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">Congratulations, your_shadowsocks_version install completed!</div><div class="line">Your Server IP        :your_server_ip</div><div class="line">Your Server Port      :your_server_port</div><div class="line">Your Password         :your_password</div><div class="line">Your Encryption <span class="function"><span class="keyword">Method</span>:</span>your_encryption_method</div><div class="line"></div><div class="line">Your QR Code: (<span class="keyword">For</span> Shadowsocks Windows, OSX, Android <span class="keyword">and</span> iOS clients)</div><div class="line"> ss:<span class="comment">//your_encryption_method:your_password@your_server_ip:your_server_port</span></div><div class="line">Your QR Code <span class="keyword">has</span> been saved <span class="keyword">as</span> a PNG file path:</div><div class="line"> your_path.png</div><div class="line"></div><div class="line">Welcome <span class="keyword">to</span> visit:https:<span class="comment">//teddysun.com/486.html</span></div><div class="line">Enjoy it!</div></pre></td></tr></table></figure></p>
+<p>保存提示信息，复制<code>ss://</code>链接，用于导入客户端。</p>
+<h2 id="启用bbr"><a href="#启用bbr" class="headerlink" title="启用bbr"></a>启用bbr</h2><p>运行以下命令：<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//github.<span class="keyword">com</span>/teddysun/across/raw/master/bbr.<span class="keyword">sh</span> &amp;&amp; chmod +<span class="keyword">x</span> bbr.<span class="keyword">sh</span> &amp;&amp; ./bbr.<span class="keyword">sh</span></div></pre></td></tr></table></figure></p>
 <p>安装完成后，脚本会提示需要重启 VPS，输入 y 并回车后重启。重启完成后，进入 VPS，验证一下是否成功安装最新内核并开启 TCP BBR，输入以下命令：<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">uname -r</span></div></pre></td></tr></table></figure></p>
 <p>查看内核版本，显示为最新版就表示 OK 了<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl net<span class="selector-class">.ipv4</span><span class="selector-class">.tcp_available_congestion_control</span></div></pre></td></tr></table></figure></p>
-<p>返回值一般为：<br><code>net.ipv4.tcp_available_congestion_control = bbr cubic reno</code><br>或者为：<br><code>net.ipv4.tcp_available_congestion_control = reno cubic bbr</code><br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl net<span class="selector-class">.ipv4</span><span class="selector-class">.tcp_congestion_control</span></div></pre></td></tr></table></figure></p>
-<p>返回值一般为：<br><code>net.ipv4.tcp_congestion_control = bbr</code><br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl net<span class="selector-class">.core</span><span class="selector-class">.default_qdisc</span></div></pre></td></tr></table></figure></p>
-<p>返回值一般为：<br><code>net.core.default_qdisc = fq</code><br><figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">lsmod <span class="string">| grep bbr</span></div></pre></td></tr></table></figure></p>
+<p>返回值一般为：<code>net.ipv4.tcp_available_congestion_control = bbr cubic reno</code><br>或者为：<code>net.ipv4.tcp_available_congestion_control = reno cubic bbr</code><br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl net<span class="selector-class">.ipv4</span><span class="selector-class">.tcp_congestion_control</span></div></pre></td></tr></table></figure></p>
+<p>返回值一般为：<code>net.ipv4.tcp_congestion_control = bbr</code><br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl net<span class="selector-class">.core</span><span class="selector-class">.default_qdisc</span></div></pre></td></tr></table></figure></p>
+<p>返回值一般为：<code>net.core.default_qdisc = fq</code><br><figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">lsmod <span class="string">| grep bbr</span></div></pre></td></tr></table></figure></p>
 <p>返回值有 tcp_bbr 模块即说明 bbr 已启动。注意：并不是所有的 VPS 都会有此返回值，若没有也属正常。</p>
-<h1 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h1><h1 id="Android端"><a href="#Android端" class="headerlink" title="Android端"></a>Android端</h1><h1 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h1><p><a href="https://medium.com/@zoomyale/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9A%84%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF-%E5%9C%A8-vultr-vps-%E4%B8%8A%E6%90%AD%E5%BB%BA-shadowsocks-fd57c807d97e" target="_blank" rel="external">https://medium.com/@zoomyale/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9A%84%E7%BB%88%E6%9E%81%E5%A7%BF%E5%8A%BF-%E5%9C%A8-vultr-vps-%E4%B8%8A%E6%90%AD%E5%BB%BA-shadowsocks-fd57c807d97e</a></p>
-<p>轻松在 VPS 搭建 Shadowsocks 翻墙 ($5/月 支付宝)<br><a href="https://www.diycode.cc/topics/738" target="_blank" rel="external">https://www.diycode.cc/topics/738</a></p>
-<p>发一个自用了一年多的翻墙工具 shadowsocks——clowwindy<br><a href="https://web.archive.org/web/20120422191812/http://www.v2ex.com/t/32777" target="_blank" rel="external">https://web.archive.org/web/20120422191812/http://www.v2ex.com/t/32777</a></p>
-<p>Shadowsocks 的前世后生<br><a href="http://www.chinagfw.org/2016/08/shadowsocks_31.html" target="_blank" rel="external">http://www.chinagfw.org/2016/08/shadowsocks_31.html</a></p>
+<h1 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h1><p>下载<a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank" rel="external"><strong> Shadowsocks客户端 </strong><i class="fa fa-external-link"></i></a>，复制<code>ss://</code>链接，右键托盘处小飞机图标，依次选择服务器,从剪切板导入URL…，点击确定便连接到VPS。<br><img src="https://i.loli.net/2018/11/25/5bfa69e47f604.png" alt="Shadowsocks客户端.png"></p>
+<h1 id="Android端"><a href="#Android端" class="headerlink" title="Android端"></a>Android端</h1><p>下载<a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank" rel="external"><strong> Shadowsocks app </strong><i class="fa fa-external-link"></i></a>，复制<code>ss://</code>链接，点击加号，选择从剪切板导入。</p>
+<hr>
+<p><strong>参考资料：</strong></p>
+<p><a href="https://teddysun.com/486.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong> Shadowsocks 一键安装脚本（四合一）</strong></a><br><a href="https://teddysun.com/489.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong> 一键安装最新内核并开启 BBR 脚本</strong></a><br><a href="https://www.diycode.cc/topics/738" target="_blank" rel="external"><i class="fa fa-link"></i><strong> 轻松在 VPS 搭建 Shadowsocks 翻墙</strong></a></p>
+<hr>
+<h1 id="SP-·-回顾-SS-的发展"><a href="#SP-·-回顾-SS-的发展" class="headerlink" title="SP · 回顾 SS 的发展"></a>SP · 回顾 SS 的发展</h1><ul>
+<li>@clowwindy 开源 SS，并<a href="https://web.archive.org/web/20120422191812/http://www.v2ex.com/t/32777" target="_blank" rel="external"><strong>分享在V2EX社区 </strong><i class="fa fa-external-link"></i></a></li>
+<li>@breakwa11 主导了 SSR 分支，吸取 SS 的功能并自主增加功能</li>
+<li>@clowwindy 发现 SSR 闭源违反 GPL 协议，发文指责</li>
+<li>@clowwindy 被喝茶，停止维护，(由他人接手）</li>
+<li>@breakwa11 把 SSR 开源，随后<a href="https://mind.momok.xyz/archives/shadowsocksr-deprecate.html" target="_blank" rel="external"><strong>停止维护 </strong><i class="fa fa-external-link"></i></a></li>
+<li>@breakwa11 再次接手，发起相关投票是否继续维护</li>
+<li>@breakwa11 放出<a href="https://web.archive.org/web/20170725120602/https://github.com/breakwa11/shadowsocks-rss/issues/868" target="_blank" rel="external"><strong> SS 被动检测1.0版 </strong><i class="fa fa-external-link"></i></a></li>
+<li>@breakwa11 疑似<a href="https://blog.wateroot.com/thinking/2017-07-27-news-about-ssr.html" target="_blank" rel="external"><strong>被人肉 </strong><i class="fa fa-external-link"></i></a>，停止维护<br><a href="https://mind.momok.xyz/archives/shadowsocksr-deprecate.html" target="_blank" rel="external">https://mind.momok.xyz/archives/shadowsocksr-deprecate.html</a><br>关于@clowwindy与@breakwa11的恩怨，早已随着二人先后停止维护淡出人们视野，而SS和SSR以及SSRR孰优孰劣的争论，却仍旧余波未平。以我之见，安心<strong>选择维护状况良好的 Shadowsocks </strong>才是长久之计。</li>
+</ul>
+<p><a href="https://www.v2ex.com/t/166417?p=2" target="_blank" rel="external"><strong>@Clowwindy 论 SS 与 Shadowsocks.com 的关系 </strong><i class="fa fa-external-link"></i></a></p>
+<blockquote>
+<p>看你们吵的这么激烈，再澄清一下吧。 </p>
+<ol>
+<li>当时几个版本内置的公共服务器流量爆了，打算把公共服务器给 @showfom 运营，并帮 @showfom 架设了服务。但没想到实际情况变成了用名气来进行宣传，也没想到这个服务会被用户当成“官方”，所以为了避免这种误解，加上精力也不够，还是取消了合作，没有收一分钱。在 Twitter 发过澄清，没在 V2EX 发是一个疏忽。至于在代码里加红字警告? Are you kidding? 一个开源项目，代码本身应该是中立的，是不应该有立场的。 </li>
+<li>为了避免今后出现类似的情况，在这里做一个声明：Shadowsocks 是一个由很多人参与的开源项目，它只是一个程序，一套算法。这些人是以自由的形式凭自己的兴趣参与这个项目的，不存在“Shadowsocks 团队”，只存在贡献者。哪天现在的这些人不维护这些代码了，也会有其他人继续维护下去。至于 Shadowsocks 的使用，只要不违反开源授权，不会干涉。 </li>
+<li>公共服务器还是免费，只是做了限速以免流量用超。OS X 版的公共服务器速度慢到不能用的时候直接关掉了。和 GFW 捉迷藏换 IP 的游戏，虽然已经半自动化，但一点也不好玩，你们明白 fqrouter 为什么要关了吧。 </li>
+<li>从实际情况上来看，Shadowsocks 没有办法离开去中心化的服务器。要么自己花钱买 VPS，要么用有人分享的账号，要么用有人提供的付费服务，他们各有所长，适合不同的人。所以作为开发者，保持中立，不偏袒其中任何一方，顺其自然发展下去是最好的吧。 </li>
+</ol>
+<p>很多人要么一窝蜂的支持，要么一窝蜂的反对，还要把它给封禁掉，大概这种心理鲁迅先生也曾批判过。我还记得当年极路由在 V2EX 被冤枉的时候，也是一边倒的说极路由窃取隐私。如果你们真的那么讨厌商业，那你们应该首先把你们的苹果设备给摔了，因为它就是商业社会巅峰造极的产物。我反对不喜欢一个东西就要拿出简单粗暴的制裁手段，正是这种习性成就了 GFW。 </p>
+<p>维护这个项目到现在大概总共回复过几千个问题，开始慢慢想清楚了一件事，为什么会存在 GFW。从这些提问可以看出，大部分人的自理能力都很差，只是等着别人帮他。特别是那些从 App Store 下载了 App 用着公共服务器的人，经常发来一封只有四个字的邮件：“不能用了？” 我觉得这是一个社会常识，花一分钟写的问题，不能期待一个毫无交情的陌生人花一个小时耐心地问你版本和操作步骤，模拟出你的环境来帮你分析解决。Windows 版加上 GFWList 功能以来，<strong>我反复呼吁给 GFWList 提交规则，但是一个月过去了竟然一个提交都没有。如果没有人做一点什么，它自己是不会更新的啊，没有人会义务地帮你打理这些。</strong>最近 net-speeder 又开始流行，害人害己。我觉得，政府无限的权力，都是大部分人自己放弃的。假货坑爹，让政府审核。孩子管不好，让政府关网吧。有人在微博骂我，让政府去删。房价太高，让政府去限购。<strong>我们的文化实在太独特，创造出了家长式威权政府，GFW 正是在这种背景下产生的，一个社会矛盾的终极调和器，最终生活不能自理的你每天做的每一件事情都要给政府审查一遍，以免伤害到其他同样生活不能自理的人。这是一个零和游戏，越和这样的用户打交道，越对未来持悲观态度，觉得 GFW 可能永远也不会消失，而墙内的这个局域网看起来还似乎生机勃勃的自成一体，真是让人绝望。 </strong></p>
+<p>顺便回答几个其它的问题吧。 </p>
+<ol>
+<li><p>为什么项目的文档和网站是英文的？开源项目用英文来维护本来就是一个约定俗成的做法。网络审查和屏蔽不是一个国家的事情，而是一个世界性的问题。这些项目有很多其它国家的用户，也有一些国外的大牛作出过宝贵的贡献。 </p>
+</li>
+<li><p>参与的人只是凭兴趣做自己喜欢的事情，如果你的 issue 不像是一种思考和贡献，而更像是咨询客服，那被关掉了不要觉得惊讶。</p>
+</li>
+</ol>
+</blockquote>
+<p><a href="https://github.com/shadowsocks/shadowsocks-windows/issues/293#issuecomment-132253168" target="_blank" rel="external"><strong>@Clowwindy 谈 ShadowsocksR </strong><i class="fa fa-external-link"></i></a></p>
+<blockquote>
+<p>那是自然的咯。这边加了什么功能，它马上扒过去合并了。它那边加了什么却不会贡献出来给其他人用，久而久之，不就是它那边功能更多了吗。</p>
+<p>一直以来我什么都没说是因为我对他还有点希望，所以得给他一点面子不是。一开始我还只是纳闷他为什么不发 pull request，过了一段时间我才明白，这个世界上也有这一类的人。不尊重 GPL 就算了，把作者名字换成自己的，还在主页上加上官方的字样。为什么我们这边反而不说官方呢？因为我希望这个项目是没有官方的，人人都是贡献者。想不到这个社会人人都围着官转，人人都巴不得当官 。</p>
+<p>既然他没有尊重别人劳动成果的意愿，那他那些不开源的理由想必也只是借口。说因为加了一些试验性功能会不兼容所以暂不开源。他弄了一个混淆 TCP 协议头功能，在界面上标注提升安全性，吸引用户打开，然后安装他自己的不兼容服务端。<strong>然而我分析了一下之后发现这个功能的设计就是想当然，用得多了以后反而会增加特征。</strong>如果你真有什么试验性功能，不是更应该开放出来让所有人帮你分析么，大家一起讨论么？<strong>在加密算法领域，只有经过足够多人和机构的审视的算法，才能视作是安全的，闭门造出来的怎么能用。。</strong></p>
+<p>当然啦，大部分用户才不会管这些，他们不会分析你是不是真的安全，也不会做道德判断，只要他们觉得好用就行。所以可以看到，这种环境下开源其实并没有什么优势，只不过为一些人抄袭提供了便利。这种环境下最后留下来的都是这些人。</p>
+<p>我一直想象的那种大家一起来维护一个项目的景象始终没有出现，也没有出现的迹象。维护这个项目的过程中，遇到 @chenshaoju 这样主动分享的同学并不多。很多来汇报问题的人是以一种小白求大大解决问题，解决完就走人的方式来的，然而既不愿提供足够的信息，也不愿写一些自己尝试的过程供后人参考。互帮互助的气氛就是搞不起来。对比下国外的社区差好远。</p>
+<p>最适合这个民族的其实是一群小白围着大大转，大大通过小白的夸奖获得自我满足，然后小白的吃喝拉撒都包给大大解决的模式。通过这个项目我感觉我已经彻底认识到这个民族的前面为什么会有一堵墙了。没有墙哪来的大大。所以到处都是什么附件回帖可见，等级多少用户组可见，一个论坛一个大大供小白跪舔，不需要政府造墙，网民也会自发造墙。这尼玛连做个翻墙软件都要造墙，真是令人叹为观止。这是一个造了几千年墙的保守的农耕民族，缺乏对别人的基本尊重，不愿意分享，喜欢遮遮掩掩，喜欢小圈子抱团，大概这些传统是改不掉了吧。</p>
+<p>现在维护这些项目已经越来越让我感到无趣。<strong>我还是努力工作，好好养家，早日肉翻吧。</strong></p>
+</blockquote>
+<p><strong>资料来源：</strong><br><a href="http://www.chinagfw.org/2016/08/shadowsocks_31.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong> GFW BLOG（功夫网与翻墙）</strong></a><br><a href="https://blog.wateroot.com/thinking/2017-07-27-news-about-ssr.html" target="_blank" rel="external"><i class="fa fa-link"></i><strong> 最近事情有点多，关于SS(R)那点事儿</strong></a></p>
 
       
     </div>
@@ -733,7 +798,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器端"><span class="nav-number">1.</span> <span class="nav-text">服务器端</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Shadowsocks"><span class="nav-number">1.1.</span> <span class="nav-text">安装Shadowsocks</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启用bbr"><span class="nav-number">1.2.</span> <span class="nav-text">启用bbr</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PC端"><span class="nav-number">2.</span> <span class="nav-text">PC端</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Android端"><span class="nav-number">3.</span> <span class="nav-text">Android端</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#回顾"><span class="nav-number">4.</span> <span class="nav-text">回顾</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#购买VPS"><span class="nav-number">1.</span> <span class="nav-text">购买VPS</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#创建账号"><span class="nav-number">1.1.</span> <span class="nav-text">创建账号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#支付预存"><span class="nav-number">1.2.</span> <span class="nav-text">支付预存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建服务器实例"><span class="nav-number">1.3.</span> <span class="nav-text">创建服务器实例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器端"><span class="nav-number">2.</span> <span class="nav-text">服务器端</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#连接服务器"><span class="nav-number">2.1.</span> <span class="nav-text">连接服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Shadowsocks"><span class="nav-number">2.2.</span> <span class="nav-text">安装Shadowsocks</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启用bbr"><span class="nav-number">2.3.</span> <span class="nav-text">启用bbr</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PC端"><span class="nav-number">3.</span> <span class="nav-text">PC端</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Android端"><span class="nav-number">4.</span> <span class="nav-text">Android端</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SP-·-回顾-SS-的发展"><span class="nav-number">5.</span> <span class="nav-text">SP · 回顾 SS 的发展</span></a></li></ol></div>
             
 
           </div>
